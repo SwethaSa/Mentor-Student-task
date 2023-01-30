@@ -41,10 +41,10 @@ app.get("/", function (request, response) {
         }
       </style>
       <h1>
-        MentorsList - <a href="http://localhost:1000/mentors" style="color: white;">http://localhost:1000/mentors</a><br>
-        MentorsByName - <a href="http://localhost:1000/mentors/Ragav" style="color: white;">http://localhost:1000/mentors/Ragav</a><br>
-        StudentsList - <a href="http://localhost:1000/students" style="color: white;">http://localhost:1000/students</a><br>
-        AssignedStudents - <a href="http://localhost:1000/assigned_students" style="color: white;">http://localhost:1000/assigned_students</a>
+        MentorsList - <a href="https://mentor-student-task-jyqdw3c6g-swethasa.vercel.app//mentors" style="color: white;">https://mentor-student-task-jyqdw3c6g-swethasa.vercel.app//mentors</a><br>
+        MentorsByName - <a href="https://mentor-student-task-jyqdw3c6g-swethasa.vercel.app//mentors/Ragav" style="color: white;">https://mentor-student-task-jyqdw3c6g-swethasa.vercel.app//mentors/Ragav</a><br>
+        StudentsList - <a href="https://mentor-student-task-jyqdw3c6g-swethasa.vercel.app//students" style="color: white;">https://mentor-student-task-jyqdw3c6g-swethasa.vercel.app//students</a><br>
+        AssignedStudents - <a href="https://mentor-student-task-jyqdw3c6g-swethasa.vercel.app//assigned_students" style="color: white;">https://mentor-student-task-jyqdw3c6g-swethasa.vercel.app//assigned_students</a>
       </h1>
     `);
   });
