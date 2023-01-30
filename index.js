@@ -35,16 +35,15 @@ app.get("/", function (request, response) {
           text-align: center;
           text-shadow: 0 0 5px white;
           box-shadow: 2px 2px 50px grey;
-
           padding: 20px;
           margin-top:6cm;
         }
       </style>
       <h1>
-        MentorsList - <a href="https://mentor-student-task-jyqdw3c6g-swethasa.vercel.app//mentors" style="color: white;">https://mentor-student-task-jyqdw3c6g-swethasa.vercel.app//mentors</a><br>
-        MentorsByName - <a href="https://mentor-student-task-jyqdw3c6g-swethasa.vercel.app//mentors/Ragav" style="color: white;">https://mentor-student-task-jyqdw3c6g-swethasa.vercel.app//mentors/Ragav</a><br>
-        StudentsList - <a href="https://mentor-student-task-jyqdw3c6g-swethasa.vercel.app//students" style="color: white;">https://mentor-student-task-jyqdw3c6g-swethasa.vercel.app//students</a><br>
-        AssignedStudents - <a href="https://mentor-student-task-jyqdw3c6g-swethasa.vercel.app//assigned_students" style="color: white;">https://mentor-student-task-jyqdw3c6g-swethasa.vercel.app//assigned_students</a>
+        MentorsList - <a href="https://mentor-student-task-jyqdw3c6g-swethasa.vercel.app/mentors" style="color: #00BFFF; text-shadow:none">https://mentor-student-task-jyqdw3c6g-swethasa.vercel.app/mentors</a><br><br>
+        MentorsByName - <a href="https://mentor-student-task-jyqdw3c6g-swethasa.vercel.app/mentors/Ragav" style="color: #00BFFF; text-shadow:none">https://mentor-student-task-jyqdw3c6g-swethasa.vercel.app/mentors/Ragav</a><br><br>
+        StudentsList - <a href="https://mentor-student-task-jyqdw3c6g-swethasa.vercel.app/students" style="color: #00BFFF; text-shadow:none">https://mentor-student-task-jyqdw3c6g-swethasa.vercel.app/students</a><br><br>
+        AssignedStudents - <a href="https://mentor-student-task-jyqdw3c6g-swethasa.vercel.app/assigned_students" style="color: #00BFFF; text-shadow:none">https://mentor-student-task-jyqdw3c6g-swethasa.vercel.app/assigned_students</a>
       </h1>
     `);
   });
