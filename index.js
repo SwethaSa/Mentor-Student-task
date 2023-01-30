@@ -23,9 +23,32 @@ console.log("Your MongoDB is connected😍👍");
 app.use(express.json());
 
 app.get("/", function (request, response) {
-  response.send("MentorsList - http://localhost:1000/mentors,      MentorsByName - http://localhost:1000/mentors/Ragav,   StudentsList - http://localhost:1000/students,   AssignedStudents - http://localhost:1000/assigned_students",
-  );
-});
+    response.send(`
+      <style>
+      body{
+        background-color: black;
+
+      }
+        h1 {
+          font-family: sans-serif;
+          color: white;
+          text-align: center;
+          text-shadow: 0 0 5px white;
+          box-shadow: 2px 2px 50px grey;
+
+          padding: 20px;
+          margin-top:6cm;
+        }
+      </style>
+      <h1>
+        MentorsList - <a href="http://localhost:1000/mentors" style="color: white;">http://localhost:1000/mentors</a><br>
+        MentorsByName - <a href="http://localhost:1000/mentors/Ragav" style="color: white;">http://localhost:1000/mentors/Ragav</a><br>
+        StudentsList - <a href="http://localhost:1000/students" style="color: white;">http://localhost:1000/students</a><br>
+        AssignedStudents - <a href="http://localhost:1000/assigned_students" style="color: white;">http://localhost:1000/assigned_students</a>
+      </h1>
+    `);
+  });
+  
 
 
 app.use("/mentors", mentorsRoute);
